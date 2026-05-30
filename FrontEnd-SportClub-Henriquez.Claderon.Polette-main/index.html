@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportClub - Tu Espacio de Entrenamiento</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #fff;
+            border: 3px solid #ff6600;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #000;
+        }
+
+        header .label {
+            color: #ccff00;
+            font-size: 1.5em;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #0000ff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Styles */
+        main {
+            background-color: #fff;
+            border: 3px solid #ff6600;
+            padding: 30px;
+            margin: 10px 0;
+        }
+
+        main h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        main .label {
+            float: right;
+            color: #ccff00;
+            font-size: 1.5em;
+        }
+
+        main p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .btn-planes {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .btn-planes:hover {
+            background-color: #cc0000;
+        }
+
+        /* Section Styles */
+        section {
+            background-color: #fff;
+            border: 3px solid #ff0000;
+            padding: 30px;
+            margin: 10px 0;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+        }
+
+        section .label {
+            float: right;
+            color: #ccff00;
+            font-size: 1.5em;
+        }
+
+        .plan {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .plan:last-child {
+            border-bottom: none;
+        }
+
+        .plan h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .plan p {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #ccff00;
+            border: 3px solid #ccff00;
+            padding: 30px;
+            margin: 10px 0;
+        }
+
+        footer h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        footer .label {
+            float: right;
+            color: #ccff00;
+            font-size: 1.5em;
+        }
+
+        footer p {
+            margin-bottom: 15px;
+        }
+
+        footer strong {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>SportClub</h1>
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#planes">Planes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <span class="label">Header</span>
+    </header>
+
+    <!-- Main Section -->
+    <main id="inicio">
+        <h2>Entrena con nosotros</h2>
+        <span class="label">Main</span>
+        <p>Bienvenido a SportClub, un espacio pensado para mejorar tu salud, entrenar con profesionales y participar en diferentes clases deportivas.</p>
+        <button class="btn-planes">Conocer planes</button>
+    </main>
+
+    <!-- Plans Section -->
+    <section id="planes">
+        <h2>Planes disponibles</h2>
+        <span class="label">Section</span>
+
+        <div class="plan">
+            <h3>Plan Básico</h3>
+            <p>Acceso a clases grupales 2 veces por semana.</p>
+            <p class="price">Precio: $15.000</p>
+        </div>
+
+        <div class="plan">
+            <h3>Plan Premium</h3>
+            <p>Acceso ilimitado a clases y uso de instalaciones.</p>
+            <p class="price">Precio: $30.000</p>
+        </div>
+
+        <div class="plan">
+            <h3>Plan Familiar</h3>
+            <p>Plan para grupos familiares con beneficios especiales.</p>
+            <p class="price">Precio: $50.000</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <span class="label">Footer</span>
+        <p><strong>Correo:</strong> contacto@sportclub.cl</p>
+        <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+        <p><strong>Dirección:</strong> Av. Principal 123, Santiago</p>
+    </footer>
+</body>
+</html>
